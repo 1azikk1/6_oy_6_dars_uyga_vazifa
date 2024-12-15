@@ -1,0 +1,54 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #ece9e6, #ffffff);
+    color: #333;
+}
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand {
+    font-weight: 700;
+    color: #007bff;
+}
+.navbar-brand:hover {
+    color: #0056b3;
+}
+.nav-link {
+    font-weight: 500;
+    color: #333;
+}
+.nav-link:hover {
+    color: #007bff;
+}
+.card {
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+.bg-image img {
+    border-radius: 15px 15px 0 0;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+}
+footer a {
+    color: #ffc107;
+    margin: 0 10px;
+    font-size: 1.2rem;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
