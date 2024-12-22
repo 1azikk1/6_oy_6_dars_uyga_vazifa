@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+<!--title-->
+{% block title %}
+{{ title }}
+{% endblock title %}
+<!--title-->
+
+{% block main %}
+<!--main-->
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Create" class="btn btn-outline-primary btn-rounded">
+</form>
+<!--main-->
+{% endblock main %}

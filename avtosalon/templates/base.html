@@ -1,0 +1,41 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Available Cars - Explore a variety of cars with detailed information">
+    <meta name="keywords" content="Cars, Automotive, Brands, Pricing">
+    <meta name="author" content="Your Name">
+
+    {% include 'components/_styles.html' %}
+    <title>
+        {% block title %}
+        {% endblock title %}
+    </title>
+
+</head>
+<body>
+
+<!-- Navbar -->
+{% include 'components/_navbar.html' %}
+<!-- Navbar -->
+
+<!-- Main Section -->
+<main class="mt-5 pt-5 mb-5">
+{% block main %}
+{% endblock main %}
+</main>
+<!-- Main Section -->
+
+<!-- Footer -->
+{% include 'components/_footer.html' %}
+<!-- Footer -->
+
+<!-- Scripts -->
+{% include 'components/_scripts.html' %}
+<!-- Scripts -->
+
+</body>
+</html>
